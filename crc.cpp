@@ -23,6 +23,7 @@ string crc(string data, string poly, bool errChk){
             }
         }
     }
+    // ''''''''''''''''''''''''''''''''
     cout<<rem<<endl;
     cout<< rem.substr(rem.length()-poly.length()+1)<<endl;
     return rem.substr(rem.length()-poly.length()+1);
