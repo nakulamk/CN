@@ -52,7 +52,7 @@ int main(){
 
   if(stoi(newRem) == 0){
     // The stoi() is a standard library function that turns a string into an integer.
-    cout << "No error in data transmission" << endl;
+    cout << "No error in dtata transmission" << endl;
   }
    else{
     cout << "Error in data transmission" << endl;
