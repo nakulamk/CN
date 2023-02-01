@@ -35,7 +35,7 @@ def generate_keypair(p, q):
 
 def encrypt(pk, plaintext):
     key, n = pk
-    cipher = [(ord(char) ** key) % n for char in plaintext] #Calculated (char^key)%n for each char of PT
+    cipher = [(ord(char) ** key) % n for char in plaintext] #Calculated (char^key)%n for each char of PT;
     return cipher
 
 def decrypt(pk, ciphertext):
